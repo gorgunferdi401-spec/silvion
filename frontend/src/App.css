@@ -925,6 +925,11 @@ body {
     padding: 0 1rem;
   }
   
+  .header-brand-name {
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+  }
+  
   .section-padding {
     padding: 3rem 0;
   }
