@@ -49,8 +49,8 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="contact-content-centered">
-          <div className="contact-info">
+        <div className="contact-content-grid">
+          <div className="contact-info-left">
             <h3 className="heading-3 contact-subtitle">İletişim Bilgileri</h3>
             <div className="contact-items">
               {contactInfo.map((item, index) => {
@@ -74,31 +74,31 @@ const ContactSection = () => {
                 );
               })}
             </div>
+          </div>
 
-            <div className="social-media">
-              <h4 className="social-title">Sosyal Medya</h4>
-              <div className="social-links">
-                {socialMedia.map((social, index) => {
-                  const Icon = social.icon;
-                  return (
-                    <a 
-                      key={index}
-                      href={social.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-link hover-lift"
-                    >
-                      <div className="social-icon">
-                        <Icon size={24} />
-                      </div>
-                      <div className="social-info">
-                        <span className="social-platform">{social.label}</span>
-                        <span className="social-handle">{social.handle}</span>
-                      </div>
-                    </a>
-                  );
-                })}
-              </div>
+          <div className="social-media-right">
+            <h3 className="heading-3 contact-subtitle">Sosyal Medya</h3>
+            <div className="social-links">
+              {socialMedia.map((social, index) => {
+                const Icon = social.icon;
+                return (
+                  <a 
+                    key={index}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-link hover-lift"
+                  >
+                    <div className="social-icon">
+                      <Icon size={24} />
+                    </div>
+                    <div className="social-info">
+                      <span className="social-platform">{social.label}</span>
+                      <span className="social-handle">{social.handle}</span>
+                    </div>
+                  </a>
+                );
+              })}
             </div>
           </div>
         </div>
