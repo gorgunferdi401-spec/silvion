@@ -538,14 +538,19 @@ body {
 }
 
 /* ===== CONTACT SECTION ===== */
-.contact-content-centered {
-  display: flex;
-  justify-content: center;
+.contact-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
   margin-top: 3rem;
+  align-items: flex-start;
 }
 
-.contact-content-centered .contact-info {
-  max-width: 600px;
+.contact-info-left {
+  width: 100%;
+}
+
+.social-media-right {
   width: 100%;
 }
 
