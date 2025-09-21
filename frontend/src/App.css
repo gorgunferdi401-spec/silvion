@@ -536,11 +536,15 @@ body {
 }
 
 /* ===== CONTACT SECTION ===== */
-.contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+.contact-content-centered {
+  display: flex;
+  justify-content: center;
   margin-top: 3rem;
+}
+
+.contact-content-centered .contact-info {
+  max-width: 600px;
+  width: 100%;
 }
 
 .contact-subtitle {
