@@ -885,6 +885,7 @@ body {
     max-width: none;
     text-align: left;
     justify-items: start;
+    gap: 1.5rem;
   }
 }
 
