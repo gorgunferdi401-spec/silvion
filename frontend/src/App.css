@@ -724,14 +724,13 @@ body {
 
 .footer-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
-  max-width: 800px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  justify-items: center;
-  text-align: center;
+  align-items: flex-start;
 }
 
 .footer-brand {
