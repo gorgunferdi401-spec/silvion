@@ -9,11 +9,14 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_aae45962-86ad-422c-8a6f-3a5b5ee88120/artifacts/bpebxdla_LOGOO.png" 
-              alt="SILVION Pet Care" 
-              className="footer-logo"
-            />
+            <div className="footer-brand-header">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_aae45962-86ad-422c-8a6f-3a5b5ee88120/artifacts/bpebxdla_LOGOO.png" 
+                alt="SILVION Pet Care" 
+                className="footer-logo"
+              />
+              <span className="footer-brand-name">SILVION PET CARE</span>
+            </div>
             <p className="footer-tagline">
               Doğanın Gücü, Dostunuzun Sağlığı
             </p>
