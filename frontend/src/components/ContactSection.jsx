@@ -49,7 +49,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="contact-content">
+        <div className="contact-content-centered">
           <div className="contact-info">
             <h3 className="heading-3 contact-subtitle">İletişim Bilgileri</h3>
             <div className="contact-items">
@@ -100,58 +100,6 @@ const ContactSection = () => {
                 })}
               </div>
             </div>
-          </div>
-
-          <div className="contact-form-container">
-            <h3 className="heading-3 contact-subtitle">Mesaj Gönderin</h3>
-            <form className="contact-form">
-              <div className="form-group">
-                <label htmlFor="name" className="form-label">İsim Soyisim</label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  name="name"
-                  className="form-input"
-                  placeholder="İsminizi girin"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email" className="form-label">E-mail</label>
-                <input 
-                  type="email" 
-                  id="email" 
-                  name="email"
-                  className="form-input"
-                  placeholder="E-mail adresinizi girin"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="phone" className="form-label">Telefon</label>
-                <input 
-                  type="tel" 
-                  id="phone" 
-                  name="phone"
-                  className="form-input"
-                  placeholder="Telefon numaranızı girin"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message" className="form-label">Mesajınız</label>
-                <textarea 
-                  id="message" 
-                  name="message"
-                  className="form-textarea"
-                  placeholder="Mesajınızı yazın..."
-                  rows="4"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" className="btn-primary form-submit">
-                Mesaj Gönder
-              </button>
-            </form>
           </div>
         </div>
       </div>
