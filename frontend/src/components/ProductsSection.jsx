@@ -3,8 +3,13 @@ import { Eye } from "lucide-react";
 import { mockProducts } from "../data/mockData";
 
 const ProductsSection = () => {
-  const handleProductClick = (productName) => {
-    alert(`${productName} detayları yakında eklenecek!`);
+  const handleProductClick = (product) => {
+    if (product.brochure) {
+      // Open PDF brochure in new tab
+      window.open(product.brochure, '_blank');
+    } else {
+      alert(`${product.name} broşürü yakında eklenecek!`);
+    }
   };
 
   return (
