@@ -912,10 +912,12 @@ body {
     text-align: center;
     max-width: none;
     justify-items: center;
+    gap: 1rem;
   }
   
   .footer-brand {
     align-items: center;
+    text-align: center;
   }
   
   .social-links-footer {
