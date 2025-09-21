@@ -842,8 +842,8 @@ body {
     height: 200px;
   }
   
-  .hero-logo {
-    height: 150px;
+  .hero-image {
+    max-height: 300px;
   }
   
   .features-grid {
