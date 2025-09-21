@@ -874,6 +874,10 @@ body {
     display: flex;
   }
   
+  .header-brand-name {
+    font-size: 1rem;
+  }
+  
   .hero-content,
   .grid-two-column {
     grid-template-columns: 1fr;
