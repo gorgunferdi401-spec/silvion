@@ -934,6 +934,10 @@ body {
     text-align: center;
   }
   
+  .footer-brand-header {
+    justify-content: center;
+  }
+  
   .social-links-footer {
     justify-content: center;
   }
