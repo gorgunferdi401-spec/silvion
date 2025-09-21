@@ -5,7 +5,7 @@ export const mockProducts = [
     name: "PET CARE NANO SPRAY",
     description: "Nano teknoloji ile geliştirilmiş antibakteriyel sprey. Evcil hayvanlarınızın hijyenini sağlar ve kötü kokuları yok eder.",
     features: ["Antibakteriyel", "Hızlı Etki", "Doğal Formül"],
-    image: "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=400&h=300&fit=crop&crop=center",
+    image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/jwi4rw0w_nano%20care%20spray.jpg",
     category: "Hijyen"
   },
   {
@@ -13,7 +13,7 @@ export const mockProducts = [
     name: "PET CARE NANO TOWEL",
     description: "Özel nano fiber teknolojisi ile üretilmiş havlu. Maksimum emiciliği ve antibakteriyel özellikleri ile öne çıkar.",
     features: ["Nano Fiber", "Antibakteriyel", "Yüksek Emicilik"],
-    image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop&crop=center",
+    image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/s4yg2pee_pet%20care%20none%20towel.jpg",
     category: "Bakım"
   },
   {
@@ -21,7 +21,7 @@ export const mockProducts = [
     name: "PET CARE NANO WIPES",
     description: "Günlük bakım için ideal nano teknoloji mendilleri. Hassas ciltler için özel olarak formüle edilmiştir.",
     features: ["Hassas Formül", "Pratik Kullanım", "Dermatolog Onaylı"],
-    image: "https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=400&h=300&fit=crop&crop=center", 
+    image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/jyrvarmm_PET%20CARE%20NONE%20WIPES.jpg", 
     category: "Temizlik"
   }
 ];
