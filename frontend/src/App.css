@@ -855,7 +855,9 @@ body {
     grid-template-columns: 1fr;
   }
   
-  .contact-content-centered {
+  .contact-content-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
     padding: 0 1rem;
   }
   
