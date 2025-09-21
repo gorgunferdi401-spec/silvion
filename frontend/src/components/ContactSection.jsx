@@ -1,0 +1,162 @@
+import React from "react";
+import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
+
+const ContactSection = () => {
+  const contactInfo = [
+    {
+      icon: Phone,
+      label: "Telefon",
+      value: "+90 (212) 555 0123",
+      action: "tel:+902125550123"
+    },
+    {
+      icon: Mail,
+      label: "E-mail",
+      value: "info@silvion.com.tr",
+      action: "mailto:info@silvion.com.tr"
+    },
+    {
+      icon: MapPin,
+      label: "Adres",
+      value: "İstanbul, Türkiye",
+      action: null
+    }
+  ];
+
+  const socialMedia = [
+    {
+      icon: Instagram,
+      label: "Instagram",
+      url: "https://instagram.com/silvionpetcare",
+      handle: "@silvionpetcare"
+    },
+    {
+      icon: Facebook,
+      label: "Facebook",
+      url: "https://facebook.com/silvionpetcare",
+      handle: "SILVION Pet Care"
+    }
+  ];
+
+  return (
+    <section id="contact" className="section-padding">
+      <div className="container">
+        <div className="section-header text-center">
+          <h2 className="heading-1 section-title">İletişime Geçin</h2>
+          <p className="body-large section-description">
+            Sorularınız için bize ulaşın. Premium pet care çözümlerimiz hakkında 
+            detaylı bilgi almak için her zaman buradayız.
+          </p>
+        </div>
+
+        <div className="contact-content">
+          <div className="contact-info">
+            <h3 className="heading-3 contact-subtitle">İletişim Bilgileri</h3>
+            <div className="contact-items">
+              {contactInfo.map((item, index) => {
+                const Icon = item.icon;
+                return (
+                  <div key={index} className="contact-item">
+                    <div className="contact-icon">
+                      <Icon size={20} />
+                    </div>
+                    <div className="contact-details">
+                      <span className="contact-label">{item.label}</span>
+                      {item.action ? (
+                        <a href={item.action} className="contact-value">
+                          {item.value}
+                        </a>
+                      ) : (
+                        <span className="contact-value">{item.value}</span>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="social-media">
+              <h4 className="social-title">Sosyal Medya</h4>
+              <div className="social-links">
+                {socialMedia.map((social, index) => {
+                  const Icon = social.icon;
+                  return (
+                    <a 
+                      key={index}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-link hover-lift"
+                    >
+                      <div className="social-icon">
+                        <Icon size={24} />
+                      </div>
+                      <div className="social-info">
+                        <span className="social-platform">{social.label}</span>
+                        <span className="social-handle">{social.handle}</span>
+                      </div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div className="contact-form-container">
+            <h3 className="heading-3 contact-subtitle">Mesaj Gönderin</h3>
+            <form className="contact-form">
+              <div className="form-group">
+                <label htmlFor="name" className="form-label">İsim Soyisim</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name"
+                  className="form-input"
+                  placeholder="İsminizi girin"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="email" className="form-label">E-mail</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email"
+                  className="form-input"
+                  placeholder="E-mail adresinizi girin"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="phone" className="form-label">Telefon</label>
+                <input 
+                  type="tel" 
+                  id="phone" 
+                  name="phone"
+                  className="form-input"
+                  placeholder="Telefon numaranızı girin"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="message" className="form-label">Mesajınız</label>
+                <textarea 
+                  id="message" 
+                  name="message"
+                  className="form-textarea"
+                  placeholder="Mesajınızı yazın..."
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" className="btn-primary form-submit">
+                Mesaj Gönder
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ContactSection;
