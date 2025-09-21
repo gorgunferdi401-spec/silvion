@@ -36,20 +36,6 @@ const AboutSection = () => {
               nano teknoloji ile birleştiriyoruz. Güvenli, etkili ve premium ürünlerimizle 
               dostlarımızın sağlıklı yaşamına katkıda bulunuyoruz.
             </p>
-            <div className="about-stats">
-              <div className="stat-item">
-                <span className="stat-number">15+</span>
-                <span className="stat-label">Yıl Tecrübe</span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-number">1000+</span>
-                <span className="stat-label">Mutlu Müşteri</span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-number">99%</span>
-                <span className="stat-label">Memnuniyet</span>
-              </div>
-            </div>
           </div>
 
           <div className="about-features">
