@@ -30,9 +30,9 @@ const HeroSection = () => {
           <div className="hero-visual">
             <div className="hero-accent-circle"></div>
             <img 
-              src="https://customer-assets.emergentagent.com/job_aae45962-86ad-422c-8a6f-3a5b5ee88120/artifacts/bpebxdla_LOGOO.png" 
-              alt="SILVION Pet Care" 
-              className="hero-logo"
+              src="https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/f64exg1f_ana%20sayfa.png" 
+              alt="SILVION Pet Care Hero" 
+              className="hero-image"
             />
           </div>
         </div>
