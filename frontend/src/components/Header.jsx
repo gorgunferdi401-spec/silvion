@@ -22,6 +22,7 @@ const Header = () => {
               alt="SILVION Pet Care" 
               className="logo-image"
             />
+            <span className="header-brand-name">SILVION PET CARE</span>
           </div>
 
           {/* Desktop Navigation */}
