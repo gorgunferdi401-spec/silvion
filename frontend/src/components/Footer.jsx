@@ -19,36 +19,34 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="footer-links">
-            <div className="footer-section">
-              <h4 className="footer-title">Ürünler</h4>
-              <ul className="footer-menu">
-                <li><a href="#products" className="footer-link">Nano Spray</a></li>
-                <li><a href="#products" className="footer-link">Nano Towel</a></li>
-                <li><a href="#products" className="footer-link">Nano Wipes</a></li>
-              </ul>
-            </div>
-
-            <div className="footer-section">
-              <h4 className="footer-title">Hakkımızda</h4>
-              <ul className="footer-menu">
-                <li><a href="#about" className="footer-link">Markamız</a></li>
-                <li><a href="#about" className="footer-link">Nano Teknoloji</a></li>
-                <li><a href="#contact" className="footer-link">İletişim</a></li>
-              </ul>
-            </div>
-
-            <div className="footer-section">
-              <h4 className="footer-title">İletişim</h4>
-              <ul className="footer-menu">
-                <li className="footer-contact">+90 (212) 555 0123</li>
-                <li className="footer-contact">info@silvion.com.tr</li>
-                <li className="footer-contact">İstanbul, Türkiye</li>
-              </ul>
-            </div>
+          <div className="footer-section">
+            <h4 className="footer-title">Ürünler</h4>
+            <ul className="footer-menu">
+              <li><a href="#products" className="footer-link">Nano Spray</a></li>
+              <li><a href="#products" className="footer-link">Nano Towel</a></li>
+              <li><a href="#products" className="footer-link">Nano Wipes</a></li>
+            </ul>
           </div>
 
-          <div className="footer-social">
+          <div className="footer-section">
+            <h4 className="footer-title">Hakkımızda</h4>
+            <ul className="footer-menu">
+              <li><a href="#about" className="footer-link">Markamız</a></li>
+              <li><a href="#about" className="footer-link">Nano Teknoloji</a></li>
+              <li><a href="#contact" className="footer-link">İletişim</a></li>
+            </ul>
+          </div>
+
+          <div className="footer-section">
+            <h4 className="footer-title">İletişim</h4>
+            <ul className="footer-menu">
+              <li className="footer-contact">+90 (212) 555 0123</li>
+              <li className="footer-contact">info@silvion.com.tr</li>
+              <li className="footer-contact">İstanbul, Türkiye</li>
+            </ul>
+          </div>
+
+          <div className="footer-section">
             <h4 className="footer-title">Takip Edin</h4>
             <div className="social-links-footer">
               <a 
