@@ -6,7 +6,8 @@ export const mockProducts = [
     description: "Nano teknoloji ile geliştirilmiş antibakteriyel sprey. Evcil hayvanlarınızın hijyenini sağlar ve kötü kokuları yok eder.",
     features: ["Antibakteriyel", "Hızlı Etki", "Doğal Formül"],
     image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/w5evnov3_PET%20CARE%20NONE%20SPRAY.jpg",
-    category: "Hijyen"
+    category: "Hijyen",
+    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/029klvcs_Sprey.pdf"
   },
   {
     id: 2,
@@ -14,7 +15,8 @@ export const mockProducts = [
     description: "Özel nano fiber teknolojisi ile üretilmiş havlu. Maksimum emiciliği ve antibakteriyel özellikleri ile öne çıkar.",
     features: ["Nano Fiber", "Antibakteriyel", "Yüksek Emicilik"],
     image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/q81h7gon_pet%20care%20none%20towel.jpg",
-    category: "Bakım"
+    category: "Bakım",
+    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/9ombrkbz_Towel.pdf"
   },
   {
     id: 3,
@@ -22,7 +24,8 @@ export const mockProducts = [
     description: "Günlük bakım için ideal nano teknoloji mendilleri. Hassas ciltler için özel olarak formüle edilmiştir.",
     features: ["Hassas Formül", "Pratik Kullanım", "Dermatolog Onaylı"],
     image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/uugzmdy4_PET%20CARE%20NONE%20WIPES.jpg", 
-    category: "Temizlik"
+    category: "Temizlik",
+    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/q8ifan2p_Wipes.pdf"
   }
 ];
 
