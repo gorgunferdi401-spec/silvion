@@ -33,7 +33,7 @@ const ProductsSection = () => {
                 />
                 <div className="product-card-overlay">
                   <button 
-                    onClick={() => handleProductClick(product.name)}
+                    onClick={() => handleProductClick(product)}
                     className="btn-secondary product-overlay-btn"
                   >
                     <Eye size={16} />
