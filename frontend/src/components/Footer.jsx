@@ -56,7 +56,7 @@ const Footer = () => {
             <h4 className="footer-title">{getTranslation(language, 'followUs')}</h4>
             <div className="social-links-footer">
               <a 
-                href="https://instagram.com/silvionpetcare"
+                href="https://instagram.com/silvion.pet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link-footer hover-lift"
