@@ -1,8 +1,12 @@
 import React from "react";
 import { Eye } from "lucide-react";
 import { mockProducts } from "../data/mockData";
+import { useLanguage } from "../contexts/LanguageContext";
+import { getTranslation } from "../data/translations";
 
 const ProductsSection = () => {
+  const { language } = useLanguage();
+
   const handleProductClick = (product) => {
     if (product.brochure) {
       // Open PDF brochure in new tab
@@ -10,6 +14,26 @@ const ProductsSection = () => {
     } else {
       alert(`${product.name} broşürü yakında eklenecek!`);
     }
+  };
+
+  // Get localized product data
+  const getLocalizedProducts = () => {
+    return mockProducts.map((product, index) => {
+      const productKeys = ['productSprayName', 'productTowelName', 'productWipesName'];
+      const descKeys = ['productSprayDesc', 'productTowelDesc', 'productWipesDesc'];
+      const featureKeys = [
+        ['antibacterial', 'fastAction', 'naturalFormula'],
+        ['nanoFiber', 'antibacterial', 'highAbsorption'],
+        ['gentleFormula', 'practicalUse', 'dermatologist']
+      ];
+
+      return {
+        ...product,
+        name: getTranslation(language, productKeys[index]),
+        description: getTranslation(language, descKeys[index]),
+        features: featureKeys[index].map(key => getTranslation(language, key))
+      };
+    });
   };
 
   return (
