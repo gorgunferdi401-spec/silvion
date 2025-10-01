@@ -21,7 +21,7 @@ const Footer = () => {
               <span className="footer-brand-name">SILVION PET CARE</span>
             </div>
             <p className="footer-tagline">
-              Doğanın Gücü, Dostunuzun Sağlığı
+              {getTranslation(language, 'footerTagline')}
             </p>
           </div>
 
