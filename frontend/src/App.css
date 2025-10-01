@@ -27,6 +27,14 @@
   --silver-light: #b8c5d1; /* Light silver accents */
   --silver-dark: #6d7b87; /* Dark silver for emphasis */
 
+  /* SILVION Brand Colors */
+  --brand-orange: #ff7700; /* Turuncu brand rengi */
+  --brand-green: #6bf502; /* Yeşil brand rengi */
+  --brand-orange-light: rgba(255, 119, 0, 0.1); /* Açık turuncu background */
+  --brand-green-light: rgba(107, 245, 2, 0.1); /* Açık yeşil background */
+  --brand-orange-hover: #e66a00; /* Turuncu hover rengi */
+  --brand-green-hover: #5dd100; /* Yeşil hover rengi */
+
   /* Borders & Separators */
   --border-light: #d0d0d0; /* Subtle separators */
   --border-medium: #bbb; /* Standard borders */
