@@ -63,17 +63,20 @@ const Header = () => {
         {isMenuOpen && (
           <div className="mobile-navigation">
             <button onClick={() => scrollToSection('home')} className="mobile-nav-link">
-              Ana Sayfa
+              {getTranslation(language, 'home')}
             </button>
             <button onClick={() => scrollToSection('products')} className="mobile-nav-link">
-              Ürünler
+              {getTranslation(language, 'products')}
             </button>
             <button onClick={() => scrollToSection('about')} className="mobile-nav-link">
-              Hakkımızda
+              {getTranslation(language, 'about')}
             </button>
             <button onClick={() => scrollToSection('contact')} className="mobile-nav-link">
-              İletişim
+              {getTranslation(language, 'contact')}
             </button>
+            <div className="mobile-language-selector">
+              <LanguageSelector />
+            </div>
           </div>
         )}
       </div>
