@@ -65,7 +65,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a 
-                href="https://facebook.com/silvionpetcare"
+                href="https://facebook.com/silvion.pet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link-footer hover-lift"
