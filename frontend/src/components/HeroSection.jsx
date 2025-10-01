@@ -18,16 +18,17 @@ const HeroSection = () => {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1 className="hero-large">
-              Doğanın Gücü,<br />
-              Dostunuzun Sağlığı
-            </h1>
+            <h1 
+              className="hero-large"
+              dangerouslySetInnerHTML={{ 
+                __html: getTranslation(language, 'heroTitle') 
+              }}
+            />
             <p className="hero-description">
-              Nano teknoloji ile güçlendirilmiş premium pet care ürünlerimizle, 
-              evcil hayvanlarınızın sağlıklı ve mutlu yaşamına katkıda bulunuyoruz.
+              {getTranslation(language, 'heroDescription')}
             </p>
             <button onClick={scrollToProducts} className="btn-primary hero-cta">
-              Ürünlerimizi Keşfet
+              {getTranslation(language, 'heroButton')}
               <ArrowRight size={16} className="btn-icon-arrow" />
             </button>
           </div>
