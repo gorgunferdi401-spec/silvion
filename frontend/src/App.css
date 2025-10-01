@@ -817,7 +817,7 @@ body {
 }
 
 .footer-link:hover {
-  color: var(--silver-primary);
+  color: var(--brand-teal);
 }
 
 .footer-contact {
