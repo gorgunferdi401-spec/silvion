@@ -8,9 +8,19 @@ const ProductsSection = () => {
   const { language } = useLanguage();
 
   const handleProductClick = (product) => {
-    if (product.brochure) {
-      // Open PDF brochure in new tab
-      window.open(product.brochure, '_blank');
+    // Determine which brochure to open based on current language
+    let brochureUrl = null;
+    
+    if (language === 'bg' && product.brochureBg) {
+      // Open Bulgarian brochure if Bulgarian language is selected
+      brochureUrl = product.brochureBg;
+    } else if (product.brochure) {
+      // Open default brochure for Turkish and English
+      brochureUrl = product.brochure;
+    }
+    
+    if (brochureUrl) {
+      window.open(brochureUrl, '_blank');
     } else {
       alert(`${product.name} broşürü yakında eklenecek!`);
     }
