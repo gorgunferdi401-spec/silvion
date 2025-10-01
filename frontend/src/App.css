@@ -479,12 +479,12 @@ body {
 }
 
 .product-feature-tag {
-  background: var(--bg-secondary);
-  color: var(--silver-dark);
+  background: linear-gradient(135deg, var(--brand-orange-light) 0%, var(--brand-green-light) 100%);
+  color: var(--text-primary);
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
   font-weight: 500;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--brand-orange);
 }
 
 /* ===== ABOUT SECTION ===== */
