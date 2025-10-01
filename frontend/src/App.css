@@ -830,7 +830,7 @@ body {
 .social-link-footer {
   width: 36px;
   height: 36px;
-  background: var(--silver-light);
+  background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-green) 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -841,8 +841,9 @@ body {
 }
 
 .social-link-footer:hover {
-  background: var(--silver-primary);
+  background: linear-gradient(135deg, var(--brand-orange-hover) 0%, var(--brand-green-hover) 100%);
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 119, 0, 0.3);
 }
 
 .footer-bottom {
