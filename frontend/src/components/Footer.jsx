@@ -79,7 +79,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <div className="footer-copyright">
-            <p>&copy; {currentYear} SILVION Pet Care. Tüm hakları saklıdır.</p>
+            <p>&copy; {currentYear} SILVION Pet Care. {getTranslation(language, 'allRights')}</p>
           </div>
         </div>
       </div>
