@@ -257,8 +257,8 @@ body {
   bottom: 0.5rem;
   left: 0;
   width: 0;
-  height: 1px;
-  background: var(--silver-primary);
+  height: 2px;
+  background: var(--brand-orange);
   transition: width 0.3s ease-in-out;
 }
 
