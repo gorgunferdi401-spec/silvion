@@ -1,7 +1,11 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
+import { getTranslation } from "../data/translations";
 
 const HeroSection = () => {
+  const { language } = useLanguage();
+
   const scrollToProducts = () => {
     const element = document.getElementById('products');
     if (element) {
