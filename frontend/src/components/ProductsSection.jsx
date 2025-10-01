@@ -40,14 +40,14 @@ const ProductsSection = () => {
     <section id="products" className="section-padding">
       <div className="container">
         <div className="section-header">
-          <h2 className="heading-1 section-title">Premium Ürün Serisi</h2>
+          <h2 className="heading-1 section-title">{getTranslation(language, 'productsTitle')}</h2>
           <p className="body-large section-description">
-            Nano teknoloji ile geliştirilmiş, evcil hayvanlarınız için özel olarak tasarlanmış ürünlerimizi keşfedin.
+            {getTranslation(language, 'productsDescription')}
           </p>
         </div>
 
         <div className="grid-product-showcase">
-          {mockProducts.map((product) => (
+          {getLocalizedProducts().map((product) => (
             <div key={product.id} className="product-card hover-lift">
               <div className="product-card-image-container">
                 <img 
