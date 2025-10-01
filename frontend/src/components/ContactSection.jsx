@@ -54,9 +54,9 @@ const ContactSection = () => {
 
         <div className="contact-content-grid">
           <div className="contact-info-left">
-            <h3 className="heading-3 contact-subtitle">İletişim Bilgileri</h3>
+            <h3 className="heading-3 contact-subtitle">{getTranslation(language, 'contactInfo')}</h3>
             <div className="contact-items">
-              {contactInfo.map((item, index) => {
+              {getLocalizedContactInfo().map((item, index) => {
                 const Icon = item.icon;
                 return (
                   <div key={index} className="contact-item">
