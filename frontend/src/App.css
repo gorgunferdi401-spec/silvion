@@ -86,7 +86,7 @@ body {
   font-size: clamp(1.75rem, 3vw, 2.5rem);
   font-weight: 600;
   line-height: 1.2;
-  color: var(--text-primary);
+  color: var(--brand-teal);
   margin-bottom: 1rem;
 }
 
