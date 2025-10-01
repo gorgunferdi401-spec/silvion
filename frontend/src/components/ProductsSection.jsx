@@ -11,11 +11,14 @@ const ProductsSection = () => {
     // Determine which brochure to open based on current language
     let brochureUrl = null;
     
-    if (language === 'bg' && product.brochureBg) {
+    if (language === 'tr' && product.brochureTr) {
+      // Open Turkish brochure if Turkish language is selected
+      brochureUrl = product.brochureTr;
+    } else if (language === 'bg' && product.brochureBg) {
       // Open Bulgarian brochure if Bulgarian language is selected
       brochureUrl = product.brochureBg;
     } else if (product.brochure) {
-      // Open default brochure for Turkish and English
+      // Open default/English brochure for English and fallback
       brochureUrl = product.brochure;
     }
     
