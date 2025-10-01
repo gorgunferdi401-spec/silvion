@@ -10,19 +10,19 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: getTranslation(language, 'phone'),
-      value: "+90 (212) 555 0123",
-      action: "tel:+902125550123"
+      value: "+90 546 100 16 16",
+      action: "tel:+905461001616"
     },
     {
       icon: Mail,
       label: getTranslation(language, 'email'),
-      value: "info@silvion.com.tr",
-      action: "mailto:info@silvion.com.tr"
+      value: "info@silvion.com",
+      action: "mailto:info@silvion.com"
     },
     {
       icon: MapPin,
       label: getTranslation(language, 'address'),
-      value: "İstanbul, Türkiye",
+      value: "Ahmet Yesevi Mah. Hudut Sk. A Blok No:1 A/A İç Kapı No: 300 Nilüfer/Bursa",
       action: null
     }
   ];
