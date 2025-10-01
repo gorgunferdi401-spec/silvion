@@ -1,27 +1,31 @@
 import React from "react";
 import { Shield, Zap, Heart, Award } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
+import { getTranslation } from "../data/translations";
 
 const AboutSection = () => {
-  const features = [
+  const { language } = useLanguage();
+
+  const getLocalizedFeatures = () => [
     {
       icon: Shield,
-      title: "Güvenli Formül",
-      description: "Doğal bileşenlerle formüle edilmiş, zararsız ve etkili ürünler"
+      title: getTranslation(language, 'safeFormula'),
+      description: getTranslation(language, 'safeFormulaDesc')
     },
     {
       icon: Zap,
-      title: "Nano Teknoloji", 
-      description: "İleri teknoloji ile enhanced edilmiş, hızlı ve etkili çözümler"
+      title: getTranslation(language, 'nanoTech'),
+      description: getTranslation(language, 'nanoTechDesc')
     },
     {
       icon: Heart,
-      title: "Evcil Dostu",
-      description: "Pet-safe formülasyonlar ile dostlarınızın güvenliği önceliğimiz"
+      title: getTranslation(language, 'petFriendly'),
+      description: getTranslation(language, 'petFriendlyDesc')
     },
     {
       icon: Award,
-      title: "Premium Kalite",
-      description: "Yüksek standartlarda üretilmiş, kalite garantili ürünler"
+      title: getTranslation(language, 'premiumQuality'),
+      description: getTranslation(language, 'premiumQualityDesc')
     }
   ];
 
