@@ -7,7 +7,8 @@ export const mockProducts = [
     features: ["Antibakteriyel", "Hızlı Etki", "Doğal Formül"],
     image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/w5evnov3_PET%20CARE%20NONE%20SPRAY.jpg",
     category: "Hijyen",
-    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/029klvcs_Sprey.pdf",
+    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/029klvcs_Sprey.pdf", // Default/English
+    brochureTr: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/hk44xc3d_Sprey%20-%20TR.pdf",
     brochureBg: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/2cr95io5_Sprey-BG.pdf"
   },
   {
@@ -17,7 +18,8 @@ export const mockProducts = [
     features: ["Nano Fiber", "Antibakteriyel", "Yüksek Emicilik"],
     image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/q81h7gon_pet%20care%20none%20towel.jpg",
     category: "Bakım",
-    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/9ombrkbz_Towel.pdf",
+    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/9ombrkbz_Towel.pdf", // Default/English
+    brochureTr: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/kilvro65_Towel%20-%20TR.pdf",
     brochureBg: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/5wgnkbtu_Towel-BG.pdf"
   },
   {
@@ -27,7 +29,8 @@ export const mockProducts = [
     features: ["Hassas Formül", "Pratik Kullanım", "Dermatolog Onaylı"],
     image: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/uugzmdy4_PET%20CARE%20NONE%20WIPES.jpg", 
     category: "Temizlik",
-    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/q8ifan2p_Wipes.pdf",
+    brochure: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/q8ifan2p_Wipes.pdf", // Default/English
+    brochureTr: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/fncl7rv4_Wipes%20-%20TR.pdf",
     brochureBg: "https://customer-assets.emergentagent.com/job_silvion-vitality/artifacts/gmy2468j_Wipes-BG.pdf"
   }
 ];
