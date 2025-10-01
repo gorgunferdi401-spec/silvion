@@ -34,11 +34,9 @@ const AboutSection = () => {
       <div className="container">
         <div className="grid-two-column">
           <div className="about-content">
-            <h2 className="heading-1">Neden SILVION?</h2>
+            <h2 className="heading-1">{getTranslation(language, 'aboutTitle')}</h2>
             <p className="body-large about-description">
-              Evcil hayvanlarımızın sağlığında yenilikçi yaklaşımımızla, doğanın gücünü 
-              nano teknoloji ile birleştiriyoruz. Güvenli, etkili ve premium ürünlerimizle 
-              dostlarımızın sağlıklı yaşamına katkıda bulunuyoruz.
+              {getTranslation(language, 'aboutDescription')}
             </p>
           </div>
 
