@@ -46,10 +46,9 @@ const ContactSection = () => {
     <section id="contact" className="section-padding">
       <div className="container">
         <div className="section-header text-center">
-          <h2 className="heading-1 section-title">İletişime Geçin</h2>
+          <h2 className="heading-1 section-title">{getTranslation(language, 'contactTitle')}</h2>
           <p className="body-large section-description">
-            Sorularınız için bize ulaşın. Premium pet care çözümlerimiz hakkında 
-            detaylı bilgi almak için her zaman buradayız.
+            {getTranslation(language, 'contactDescription')}
           </p>
         </div>
 
