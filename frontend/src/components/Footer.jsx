@@ -1,8 +1,11 @@
 import React from "react";
 import { Instagram, Facebook } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
+import { getTranslation } from "../data/translations";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { language } = useLanguage();
 
   return (
     <footer className="footer">
