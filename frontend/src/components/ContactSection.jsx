@@ -1,23 +1,27 @@
 import React from "react";
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
+import { getTranslation } from "../data/translations";
 
 const ContactSection = () => {
-  const contactInfo = [
+  const { language } = useLanguage();
+
+  const getLocalizedContactInfo = () => [
     {
       icon: Phone,
-      label: "Telefon",
+      label: getTranslation(language, 'phone'),
       value: "+90 (212) 555 0123",
       action: "tel:+902125550123"
     },
     {
       icon: Mail,
-      label: "E-mail",
+      label: getTranslation(language, 'email'),
       value: "info@silvion.com.tr",
       action: "mailto:info@silvion.com.tr"
     },
     {
       icon: MapPin,
-      label: "Adres",
+      label: getTranslation(language, 'address'),
       value: "İstanbul, Türkiye",
       action: null
     }
