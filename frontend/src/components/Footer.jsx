@@ -46,9 +46,9 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-title">{getTranslation(language, 'contact')}</h4>
             <ul className="footer-menu">
-              <li className="footer-contact">+90 (212) 555 0123</li>
-              <li className="footer-contact">info@silvion.com.tr</li>
-              <li className="footer-contact">İstanbul, Türkiye</li>
+              <li className="footer-contact">+90 546 100 16 16</li>
+              <li className="footer-contact">info@silvion.com</li>
+              <li className="footer-contact">Nilüfer/Bursa</li>
             </ul>
           </div>
 
