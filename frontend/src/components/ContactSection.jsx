@@ -80,7 +80,7 @@ const ContactSection = () => {
           </div>
 
           <div className="social-media-right">
-            <h3 className="heading-3 contact-subtitle">Sosyal Medya</h3>
+            <h3 className="heading-3 contact-subtitle">{getTranslation(language, 'socialMedia')}</h3>
             <div className="social-links">
               {socialMedia.map((social, index) => {
                 const Icon = social.icon;
