@@ -26,25 +26,25 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-title">Ürünler</h4>
+            <h4 className="footer-title">{getTranslation(language, 'products')}</h4>
             <ul className="footer-menu">
-              <li><a href="#products" className="footer-link">Nano Spray</a></li>
-              <li><a href="#products" className="footer-link">Nano Towel</a></li>
-              <li><a href="#products" className="footer-link">Nano Wipes</a></li>
+              <li><a href="#products" className="footer-link">{getTranslation(language, 'productSprayName')}</a></li>
+              <li><a href="#products" className="footer-link">{getTranslation(language, 'productTowelName')}</a></li>
+              <li><a href="#products" className="footer-link">{getTranslation(language, 'productWipesName')}</a></li>
             </ul>
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-title">Hakkımızda</h4>
+            <h4 className="footer-title">{getTranslation(language, 'about')}</h4>
             <ul className="footer-menu">
-              <li><a href="#about" className="footer-link">Markamız</a></li>
-              <li><a href="#about" className="footer-link">Nano Teknoloji</a></li>
-              <li><a href="#contact" className="footer-link">İletişim</a></li>
+              <li><a href="#about" className="footer-link">{getTranslation(language, 'ourBrand')}</a></li>
+              <li><a href="#about" className="footer-link">{getTranslation(language, 'nanoTech')}</a></li>
+              <li><a href="#contact" className="footer-link">{getTranslation(language, 'contact')}</a></li>
             </ul>
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-title">İletişim</h4>
+            <h4 className="footer-title">{getTranslation(language, 'contact')}</h4>
             <ul className="footer-menu">
               <li className="footer-contact">+90 (212) 555 0123</li>
               <li className="footer-contact">info@silvion.com.tr</li>
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-title">Takip Edin</h4>
+            <h4 className="footer-title">{getTranslation(language, 'followUs')}</h4>
             <div className="social-links-footer">
               <a 
                 href="https://instagram.com/silvionpetcare"
