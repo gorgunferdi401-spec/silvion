@@ -124,9 +124,9 @@ body {
 
 /* ===== BUTTON SYSTEM - SHARP RECTANGULAR ===== */
 .btn-primary {
-  background: transparent;
-  color: var(--interactive-base);
-  border: 1px solid var(--interactive-base);
+  background: var(--brand-orange);
+  color: white;
+  border: 1px solid var(--brand-orange);
   border-radius: 0px; /* Sharp edges - no rounding */
   padding: 1rem 1.5rem;
   min-width: 180px;
@@ -144,14 +144,16 @@ body {
 }
 
 .btn-primary:hover {
-  background: var(--interactive-base);
-  color: var(--bg-primary);
+  background: var(--brand-orange-hover);
+  border-color: var(--brand-orange-hover);
+  color: white;
   transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 119, 0, 0.3);
 }
 
 .btn-primary:active {
-  background: var(--interactive-hover);
-  color: var(--bg-primary);
+  background: var(--brand-orange-hover);
+  color: white;
   transform: translateY(0);
 }
 
