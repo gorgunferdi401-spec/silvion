@@ -32,18 +32,23 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="navigation-menu">
             <button onClick={() => scrollToSection('home')} className="navigation-link">
-              Ana Sayfa
+              {getTranslation(language, 'home')}
             </button>
             <button onClick={() => scrollToSection('products')} className="navigation-link">
-              Ürünler
+              {getTranslation(language, 'products')}
             </button>
             <button onClick={() => scrollToSection('about')} className="navigation-link">
-              Hakkımızda
+              {getTranslation(language, 'about')}
             </button>
             <button onClick={() => scrollToSection('contact')} className="navigation-link">
-              İletişim
+              {getTranslation(language, 'contact')}
             </button>
           </nav>
+
+          {/* Language Selector */}
+          <div className="navigation-utilities">
+            <LanguageSelector />
+          </div>
 
           {/* Mobile Menu Toggle */}
           <button 
