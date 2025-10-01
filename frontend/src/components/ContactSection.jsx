@@ -37,8 +37,8 @@ const ContactSection = () => {
     {
       icon: Facebook,
       label: "Facebook",
-      url: "https://facebook.com/silvionpetcare",
-      handle: "SILVION Pet Care"
+      url: "https://facebook.com/silvion.pet",
+      handle: "@silvion.pet"
     }
   ];
 
