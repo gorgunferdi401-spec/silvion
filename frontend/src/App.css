@@ -776,7 +776,7 @@ body {
 .footer-brand-name {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--brand-teal);
   letter-spacing: 0.5px;
 }
 
