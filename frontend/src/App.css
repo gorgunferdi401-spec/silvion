@@ -630,7 +630,7 @@ body {
 }
 
 .contact-value:hover {
-  color: var(--silver-primary);
+  color: var(--brand-teal);
 }
 
 .social-title {
