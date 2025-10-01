@@ -61,7 +61,7 @@ const ProductsSection = () => {
                     className="btn-secondary product-overlay-btn"
                   >
                     <Eye size={16} />
-                    Detayları Gör
+                    {getTranslation(language, 'detailsButton')}
                   </button>
                 </div>
               </div>
