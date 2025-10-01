@@ -231,7 +231,7 @@ body {
 .header-brand-name {
   font-size: 1.125rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--brand-teal);
   letter-spacing: 0.5px;
 }
 
