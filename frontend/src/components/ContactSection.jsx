@@ -31,8 +31,8 @@ const ContactSection = () => {
     {
       icon: Instagram,
       label: "Instagram",
-      url: "https://instagram.com/silvionpetcare",
-      handle: "@silvionpetcare"
+      url: "https://instagram.com/silvion.pet",
+      handle: "@silvion.pet"
     },
     {
       icon: Facebook,
