@@ -337,7 +337,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(140, 155, 171, 0.1) 0%, rgba(184, 197, 209, 0.05) 100%);
+  background: linear-gradient(135deg, var(--brand-orange-light) 0%, var(--brand-green-light) 100%);
   z-index: 1;
 }
 
