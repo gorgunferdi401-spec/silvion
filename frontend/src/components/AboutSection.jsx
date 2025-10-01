@@ -42,7 +42,7 @@ const AboutSection = () => {
 
           <div className="about-features">
             <div className="features-grid">
-              {features.map((feature, index) => {
+              {getLocalizedFeatures().map((feature, index) => {
                 const Icon = feature.icon;
                 return (
                   <div key={index} className="feature-card hover-lift">
