@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
+import { getTranslation } from "../data/translations";
+import LanguageSelector from "./LanguageSelector";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { language } = useLanguage();
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
